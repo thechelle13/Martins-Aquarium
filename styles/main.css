@@ -1,0 +1,76 @@
+h1 
+{
+    color: rgb(16, 17, 17);
+    text-align: center;
+    background-color: rgb(230, 199, 23);
+}
+
+h2 
+{
+    color: rgb(16, 17, 17);
+    text-align: center;
+}
+
+h3 
+{
+    color: rgb(16, 17, 17);
+    text-align: center;
+}
+
+.content__fish-list 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
+}
+
+img
+{
+    border-radius: 15%;
+    max-width: 10%;
+    height: auto;
+}
+
+.content__quote-list 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    font-style: italic;
+}
+
+.content__origin-list 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: rgb(224, 18, 97);
+    border-width: 3px;
+}
+
+.content__tips 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+}
+
+.content__blog-thoughts 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
+}
