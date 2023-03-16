@@ -2,6 +2,7 @@
 
 // Import the FishList function from the correct module
 import { getFish } from './database.js'
+import { FishList } from './FishList.js'
 
 const allFish = getFish()
 
@@ -17,7 +18,7 @@ for (const fish of allFish) {
     Use . for elements with a "class" attribute
     Use # for elements with an "id" attribute
  */
-const parentHTMLElement = document.querySelector("insert selector here")
+const parentHTMLElement = document.querySelector(".fishlist")
 
 
 parentHTMLElement.innerHTML = FishList()
